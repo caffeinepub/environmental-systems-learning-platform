@@ -1,0 +1,140 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add hyperlinks to interactive activities in unit pages",
+  "requirements": [
+    {
+      "id": "REQ-28",
+      "summary": "Convert BioticAbioticSorting component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to the interactive activity section",
+      "acceptanceCriteria": [
+        "Biotic vs Abiotic sorting activity is accessible via clickable link",
+        "Link uses smooth scroll behavior or section highlighting",
+        "Link maintains nature-inspired design system styling"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Unit1EnvironmentalSystems.tsx",
+          "operation": "modify",
+          "description": "Add id attribute 'biotic-abiotic-sorting' to the section containing BioticAbioticSorting component. Wrap the section heading in an anchor link that uses smooth scroll behavior to navigate to this section. Apply nature-inspired styling (forest green hover states) to maintain design consistency."
+        }
+      ]
+    },
+    {
+      "id": "REQ-29",
+      "summary": "Convert FoodWebBuilder component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to the food web builder section",
+      "acceptanceCriteria": [
+        "Food web builder activity is accessible via clickable link",
+        "Link uses smooth scroll behavior or section highlighting",
+        "Link maintains nature-inspired design system styling"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Unit1EnvironmentalSystems.tsx",
+          "operation": "modify",
+          "description": "Add id attribute 'food-web-builder' to the section containing FoodWebBuilder component. Wrap the section heading in an anchor link that uses smooth scroll behavior to navigate to this section. Apply nature-inspired styling consistent with REQ-28."
+        }
+      ]
+    },
+    {
+      "id": "REQ-30",
+      "summary": "Convert VirtualLab component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to the virtual lab section",
+      "acceptanceCriteria": [
+        "Virtual lab for dissolved oxygen and nitrates is accessible via clickable link",
+        "Link uses smooth scroll behavior or section highlighting",
+        "Link maintains nature-inspired design system styling"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Unit1EnvironmentalSystems.tsx",
+          "operation": "modify",
+          "description": "Add id attribute 'virtual-lab' to the section containing VirtualLab component. Wrap the section heading in an anchor link that uses smooth scroll behavior to navigate to this section. Apply nature-inspired styling consistent with REQ-28."
+        }
+      ]
+    },
+    {
+      "id": "REQ-31",
+      "summary": "Convert BiogeochemicalCycles component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to the biogeochemical cycles section",
+      "acceptanceCriteria": [
+        "Biogeochemical cycles activity is accessible via clickable link",
+        "Link uses smooth scroll behavior or section highlighting",
+        "Link maintains nature-inspired design system styling"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Unit1EnvironmentalSystems.tsx",
+          "operation": "modify",
+          "description": "Add id attribute 'biogeochemical-cycles' to the section containing BiogeochemicalCycles component. Wrap the section heading in an anchor link that uses smooth scroll behavior to navigate to this section. Apply nature-inspired styling consistent with REQ-28."
+        }
+      ]
+    },
+    {
+      "id": "REQ-32",
+      "summary": "Add a table of contents or navigation section at the top of Unit1EnvironmentalSystems.tsx that lists all interactive activities with anchor links",
+      "acceptanceCriteria": [
+        "Navigation section appears below the unit header",
+        "Each interactive activity has a named anchor link",
+        "Links smoothly scroll to the corresponding activity",
+        "Navigation is styled consistently with the nature-inspired theme"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Unit1EnvironmentalSystems.tsx",
+          "operation": "modify",
+          "description": "Add a navigation section immediately after the ReadingContent component and before the interactive activities section. Create a styled card containing a list of anchor links to all four interactive activities (Biotic vs Abiotic Sorting, Food Web Builder, Virtual Lab, Biogeochemical Cycles). Each link should reference the corresponding section id and use smooth scroll behavior. Style the navigation with the nature-inspired design system (forest green accents, earth-tone backgrounds) and ensure it's visually distinct from other content sections."
+        }
+      ]
+    },
+    {
+      "id": "REQ-33",
+      "summary": "Apply the same hyperlink and navigation pattern to all placeholder interactive activities in Unit2NatureOfScience.tsx through Unit9Legislation.tsx",
+      "acceptanceCriteria": [
+        "All unit pages (Unit 2-9) have navigation sections listing their interactive activities",
+        "All interactive activity headings are clickable and navigate to their sections",
+        "Smooth scroll behavior is consistent across all unit pages",
+        "Navigation styling matches the nature-inspired design system"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Unit2NatureOfScience.tsx",
+          "operation": "modify",
+          "description": "Add id attributes to the placeholder interactive activities section ('scientific-method-activities'). Add a table of contents navigation section below ReadingContent listing the placeholder interactive activities for this unit (Scientific Method Builder, Hypothesis Testing). Include anchor links with smooth scroll behavior and nature-inspired styling matching Unit 1."
+        },
+        {
+          "path": "frontend/src/pages/Unit3EnergyFlow.tsx",
+          "operation": "modify",
+          "description": "Add id attributes to the placeholder interactive activities section ('energy-flow-activities'). Add a table of contents navigation section below ReadingContent listing the placeholder interactive activities for this unit (Energy Pyramid Builder, Trophic Level Simulator). Include anchor links with smooth scroll behavior and nature-inspired styling matching Unit 1."
+        },
+        {
+          "path": "frontend/src/pages/Unit4CarryingCapacity.tsx",
+          "operation": "modify",
+          "description": "Add id attributes to the placeholder interactive activities section ('carrying-capacity-activities'). Add a table of contents navigation section below ReadingContent listing the placeholder interactive activities for this unit (Population Growth Simulator, Limiting Factors Analysis). Include anchor links with smooth scroll behavior and nature-inspired styling matching Unit 1."
+        },
+        {
+          "path": "frontend/src/pages/Unit5NaturalChange.tsx",
+          "operation": "modify",
+          "description": "Add id attributes to the placeholder interactive activities section ('natural-change-activities'). Add a table of contents navigation section below ReadingContent listing the placeholder interactive activities for this unit (Succession Timeline, Disturbance Simulator). Include anchor links with smooth scroll behavior and nature-inspired styling matching Unit 1."
+        },
+        {
+          "path": "frontend/src/pages/Unit6HumanImpact.tsx",
+          "operation": "modify",
+          "description": "Add id attributes to the placeholder interactive activities section ('human-impact-activities'). Add a table of contents navigation section below ReadingContent listing the placeholder interactive activities for this unit (Pollution Tracker, Carbon Footprint Calculator). Include anchor links with smooth scroll behavior and nature-inspired styling matching Unit 1."
+        },
+        {
+          "path": "frontend/src/pages/Unit7HumanActions.tsx",
+          "operation": "modify",
+          "description": "Add id attributes to the placeholder interactive activities section ('sustainability-activities'). Add a table of contents navigation section below ReadingContent listing the placeholder interactive activities for this unit (Sustainability Audit, Renewable Energy Comparison). Include anchor links with smooth scroll behavior and nature-inspired styling matching Unit 1."
+        },
+        {
+          "path": "frontend/src/pages/Unit8EthicsEconomics.tsx",
+          "operation": "modify",
+          "description": "Add id attributes to the placeholder interactive activities section ('ethics-economics-activities'). Add a table of contents navigation section below ReadingContent listing the placeholder interactive activities for this unit (Cost-Benefit Analysis, Ethical Dilemma Cases). Include anchor links with smooth scroll behavior and nature-inspired styling matching Unit 1."
+        },
+        {
+          "path": "frontend/src/pages/Unit9Legislation.tsx",
+          "operation": "modify",
+          "description": "Add id attributes to the placeholder interactive activities section ('legislation-activities'). Add a table of contents navigation section below ReadingContent listing the placeholder interactive activities for this unit (Policy Timeline, Treaty Comparison Tool, Law Proposal Simulator). Include anchor links with smooth scroll behavior and nature-inspired styling matching Unit 1."
+        }
+      ]
+    }
+  ]
+}

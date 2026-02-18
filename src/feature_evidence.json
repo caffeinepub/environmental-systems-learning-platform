@@ -1,0 +1,132 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-convert-the-bioticabioticsorting-component-heading-in-unit1environmentalsystems-tsx-into-a-clickable-hyperlink-that-scrolls-to-or-highlights-the-interactive-activity-section-when-clicked",
+      "featureTitle": "Convert the BioticAbioticSorting component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the interactive activity section when clicked",
+      "files": [
+        "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-28"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-convert-the-foodwebbuilder-component-heading-in-unit1environmentalsystems-tsx-into-a-clickable-hyperlink-that-scrolls-to-or-highlights-the-food-web-builder-section-when-clicked",
+      "featureTitle": "Convert the FoodWebBuilder component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the food web builder section when clicked",
+      "files": [
+        "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-29"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-convert-the-virtuallab-component-heading-in-unit1environmentalsystems-tsx-into-a-clickable-hyperlink-that-scrolls-to-or-highlights-the-virtual-lab-section-when-clicked",
+      "featureTitle": "Convert the VirtualLab component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the virtual lab section when clicked",
+      "files": [
+        "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-30"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-convert-the-biogeochemicalcycles-component-heading-in-unit1environmentalsystems-tsx-into-a-clickable-hyperlink-that-scrolls-to-or-highlights-the-biogeochemical-cycles-section-when-clicked",
+      "featureTitle": "Convert the BiogeochemicalCycles component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the biogeochemical cycles section when clicked",
+      "files": [
+        "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-31"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-table-of-contents-or-navigation-section-at-the-top-of-unit1environmentalsystems-tsx-that-lists-all-interactive-activities-with-anchor-links-to-each-activity-section",
+      "featureTitle": "Add a table of contents or navigation section at the top of Unit1EnvironmentalSystems.tsx that lists all interactive activities with anchor links to each activity section",
+      "files": [
+        "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-32"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-the-same-hyperlink-and-navigation-pattern-from-req-28-through-req-32-to-all-placeholder-interactive-activities-in-unit2natureofscience-tsx-through-unit9legislation-tsx-creating-clickable-activity-links-for-scientific-method-builder-hypothesis-testing-model-comparison-energy-pyramid-builder-population-simulators-and-all-other-listed-interactive-components",
+      "featureTitle": "Apply the same hyperlink and navigation pattern from REQ-28 through REQ-32 to all placeholder interactive activities in Unit2NatureOfScience.tsx through Unit9Legislation.tsx, creating clickable activity links for scientific method builder, hypothesis testing, model comparison, energy pyramid builder, population simulators, and all other listed interactive components",
+      "files": [
+        "frontend/src/pages/Unit2NatureOfScience.tsx",
+        "frontend/src/pages/Unit3EnergyFlow.tsx",
+        "frontend/src/pages/Unit4CarryingCapacity.tsx",
+        "frontend/src/pages/Unit5NaturalChange.tsx",
+        "frontend/src/pages/Unit6HumanImpact.tsx",
+        "frontend/src/pages/Unit7HumanActions.tsx",
+        "frontend/src/pages/Unit8EthicsEconomics.tsx",
+        "frontend/src/pages/Unit9Legislation.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-33"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

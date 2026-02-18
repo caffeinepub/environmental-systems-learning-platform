@@ -1,0 +1,391 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Interactive Environmental Systems learning website for high school students (ages 15-18) with 9 curriculum units covering environmental science topics. Features nature-inspired design, interactive simulations, virtual labs, animated concept explainers, career exploration, and assessment tools.",
+  "architectural_notes": [
+    "React-based multi-page website with unit-specific routes",
+    "Animation library (Framer Motion or similar) for smooth transitions and micro-interactions",
+    "Green color palette: forest green, sage, olive, moss, brown with light tan backgrounds",
+    "Mobile-first responsive design with accessibility compliance",
+    "Modular unit structure: reading content, videos, virtual labs, WebQuests, quizzes, and career sections",
+    "Integration points for Khan Academy video embeds and Google Forms",
+    "Progress tracking system with completion badges",
+    "Teacher dashboard with student analytics and assessment data"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-implement-nature-inspired-design-system-with-forest-green-sage-green-olive-moss-and-deep-brown-color-palette-with-light-tan-backgrounds-for-readability-include-leaf-accents-subtle-earth-textures-and-soft-gradients-throughout-the-application",
+      "title": "Implement nature-inspired design system with forest green, sage green, olive, moss, and deep brown color palette, with light tan backgrounds for readability. Include leaf accents, subtle earth textures, and soft gradients throughout the application.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-homepage-dashboard-with-navigation-cards-linking-to-nine-unit-pages-unit1-environmental-systems-unit2-nature-of-science-unit3-energy-flow-unit4-carrying-capacity-unit5-natural-change-unit6-human-impact-unit7-human-actions-unit8-ethics-economics-unit9-legislation",
+      "title": "Create homepage dashboard with navigation cards linking to nine unit pages: /unit1-environmental-systems, /unit2-nature-of-science, /unit3-energy-flow, /unit4-carrying-capacity, /unit5-natural-change, /unit6-human-impact, /unit7-human-actions, /unit8-ethics-economics, /unit9-legislation",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-smooth-scroll-animations-micro-animations-for-energy-flow-biogeochemical-cycles-population-growth-graphs-climate-models-and-pollution-movement-add-interactive-hover-effects-throughout-the-application",
+      "title": "Implement smooth scroll animations, micro-animations for energy flow, biogeochemical cycles, population growth graphs, climate models, and pollution movement. Add interactive hover effects throughout the application.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-unit-1-environmental-systems-page-at-unit1-environmental-systems-with-biotic-vs-abiotic-interactive-sorting-activity-animated-ecosystem-food-web-builder-virtual-lab-for-measuring-dissolved-oxygen-and-nitrates-cycling-models-for-water-nitrogen-carbon-phosphorus-silicon-invasive-species-simulation-and-genetic-diversity-population-simulation",
+      "title": "Build Unit 1: Environmental Systems page at /unit1-environmental-systems with biotic vs abiotic interactive sorting activity, animated ecosystem food web builder, virtual lab for measuring dissolved oxygen and nitrates, cycling models for water/nitrogen/carbon/phosphorus/silicon, invasive species simulation, and genetic diversity population simulation.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-unit-2-nature-of-science-page-at-unit2-nature-of-science-with-interactive-scientific-method-builder-hypothesis-testing-animation-model-comparison-tool-and-is-it-science-interactive-classification-activity",
+      "title": "Build Unit 2: Nature of Science page at /unit2-nature-of-science with interactive scientific method builder, hypothesis testing animation, model comparison tool, and 'Is it Science?' interactive classification activity.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-unit-3-energy-flow-page-at-unit3-energy-flow-with-animated-geosphere-hydrosphere-atmosphere-biosphere-interaction-energy-pyramid-builder-heat-transfer-simulation-showing-conduction-convection-radiation-and-fossil-fuel-formation-timeline-animation",
+      "title": "Build Unit 3: Energy Flow page at /unit3-energy-flow with animated geosphere/hydrosphere/atmosphere/biosphere interaction, energy pyramid builder, heat transfer simulation showing conduction/convection/radiation, and fossil fuel formation timeline animation.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-unit-4-carrying-capacity-page-at-unit4-carrying-capacity-with-exponential-vs-logistic-growth-graph-animation-population-crash-simulator-disease-outbreak-model-and-urbanization-impact-model",
+      "title": "Build Unit 4: Carrying Capacity page at /unit4-carrying-capacity with exponential vs logistic growth graph animation, population crash simulator, disease outbreak model, and urbanization impact model.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-unit-5-natural-environmental-change-page-at-unit5-natural-change-with-interactive-tectonic-plate-simulator-hurricane-formation-animation-succession-time-lapse-forest-regrowth-el-ni-o-and-la-ni-a-animation-and-climate-change-impact-globe-visualization",
+      "title": "Build Unit 5: Natural Environmental Change page at /unit5-natural-change with interactive tectonic plate simulator, hurricane formation animation, succession time-lapse forest regrowth, El Niño and La Niña animation, and climate change impact globe visualization.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-unit-6-human-impact-page-at-unit6-human-impact-with-pollution-source-identification-game-air-quality-index-simulator-ozone-layer-vs-greenhouse-effect-comparison-animation-and-ir-vs-uv-wavelength-visual-explainer",
+      "title": "Build Unit 6: Human Impact page at /unit6-human-impact with pollution source identification game, air quality index simulator, ozone layer vs greenhouse effect comparison animation, and IR vs UV wavelength visual explainer.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-unit-7-human-actions-page-at-unit7-human-actions-with-build-a-sustainable-city-simulation-waste-reduction-interactive-challenge-carbon-footprint-calculator-and-green-technology-comparison-chart",
+      "title": "Build Unit 7: Human Actions page at /unit7-human-actions with 'Build a Sustainable City' simulation, waste reduction interactive challenge, carbon footprint calculator, and green technology comparison chart.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-unit-8-ethics-economics-page-at-unit8-ethics-economics-with-cost-benefit-analysis-interactive-tool-debate-simulation-module-ethical-decision-scenario-builder-and-resource-allocation-game",
+      "title": "Build Unit 8: Ethics & Economics page at /unit8-ethics-economics with cost-benefit analysis interactive tool, debate simulation module, ethical decision scenario builder, and resource allocation game.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-unit-9-environmental-legislation-page-at-unit9-legislation-with-interactive-timelines-and-summaries-for-clean-air-act-clean-water-act-endangered-species-act-montreal-protocol-kyoto-protocol-and-paris-climate-accord-include-interactive-treaty-comparison-table-legislative-impact-simulation-and-pass-your-own-environmental-law-activity",
+      "title": "Build Unit 9: Environmental Legislation page at /unit9-legislation with interactive timelines and summaries for Clean Air Act, Clean Water Act, Endangered Species Act, Montreal Protocol, Kyoto Protocol, and Paris Climate Accord. Include interactive treaty comparison table, legislative impact simulation, and 'Pass Your Own Environmental Law' activity.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-reading-content-organized-by-subtopics-to-all-nine-unit-pages-content-should-be-academic-but-teen-friendly-encouraging-curiosity-and-critical-thinking-for-ages-15-18",
+      "title": "Add reading content organized by subtopics to all nine unit pages. Content should be academic but teen-friendly, encouraging curiosity and critical thinking for ages 15-18.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-embed-relevant-khan-academy-videos-in-each-unit-page-videos-should-be-topically-relevant-to-the-unit-content",
+      "title": "Embed relevant Khan Academy videos in each unit page. Videos should be topically relevant to the unit content.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-webquest-guided-research-activities-for-each-unit-unit-1-explore-local-ecosystems-biomes-field-research-stations-museums-and-botanical-gardens-unit-2-research-institutions-scientific-journals-laboratories-professional-science-organizations-unit-3-9-develop-appropriate-research-topics-aligned-with-unit-content",
+      "title": "Create WebQuest guided research activities for each unit. Unit 1: explore local ecosystems, biomes, field research stations, museums and botanical gardens. Unit 2: research institutions, scientific journals, laboratories, professional science organizations. Unit 3-9: develop appropriate research topics aligned with unit content.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-include-fun-facts-sections-in-all-nine-units-with-engaging-environmental-science-facts-unit-1-examples-the-amazon-produces-about-20-of-the-world-s-oxygen-and-some-tundra-soil-is-over-10-000-years-old-unit-2-examples-science-changes-pluto-was-reclassified-in-2006-and-peer-review-dates-back-to-the-1700s-include-similar-facts-for-units-3-9-based-on-provided-examples",
+      "title": "Include Fun Facts sections in all nine units with engaging environmental science facts. Unit 1 examples: 'The Amazon produces about 20% of the world's oxygen' and 'Some tundra soil is over 10,000 years old'. Unit 2 examples: 'Science changes — Pluto was reclassified in 2006' and 'Peer review dates back to the 1700s'. Include similar facts for Units 3-9 based on provided examples.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-stem-career-exploration-sections-for-all-nine-units-unit-1-ecologist-environmental-scientist-conservation-biologist-unit-2-research-scientist-lab-technician-data-analyst-unit-3-energy-engineer-climate-scientist-renewable-energy-technician-unit-4-epidemiologist-urban-planner-wildlife-biologist-unit-5-geologist-meteorologist-climate-modeler-unit-6-environmental-engineer-toxicologist-air-quality-specialist-unit-7-sustainability-consultant-environmental-policy-advisor-wildlife-manager-unit-8-environmental-economist-policy-analyst-environmental-lawyer-unit-9-environmental-lawyer-government-policy-advisor-international-environmental-consultant",
+      "title": "Create STEM Career Exploration sections for all nine units. Unit 1: Ecologist, Environmental Scientist, Conservation Biologist. Unit 2: Research Scientist, Lab Technician, Data Analyst. Unit 3: Energy Engineer, Climate Scientist, Renewable Energy Technician. Unit 4: Epidemiologist, Urban Planner, Wildlife Biologist. Unit 5: Geologist, Meteorologist, Climate Modeler. Unit 6: Environmental Engineer, Toxicologist, Air Quality Specialist. Unit 7: Sustainability Consultant, Environmental Policy Advisor, Wildlife Manager. Unit 8: Environmental Economist, Policy Analyst, Environmental Lawyer. Unit 9: Environmental Lawyer, Government Policy Advisor, International Environmental Consultant.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-collapsible-explore-stem-careers-real-world-connections-section-to-all-nine-units-include-clickable-external-resource-cards-for-museums-planetariums-observatories-libraries-research-universities-professional-stem-organizations-private-companies-online-learning-platforms-and-stem-mentors-internship-programs-add-career-pathway-map-interview-a-stem-professional-project-template-and-reflection-journal-section",
+      "title": "Add collapsible 'Explore STEM Careers & Real-World Connections' section to all nine units. Include clickable external resource cards for museums, planetariums, observatories, libraries, research universities, professional STEM organizations, private companies, online learning platforms, and STEM mentors/internship programs. Add career pathway map, 'Interview a STEM Professional' project template, and reflection journal section.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-self-checking-quizzes-for-all-nine-units-with-5-10-questions-each-providing-instant-feedback-and-auto-grading-include-progress-tracking-dashboard-and-completion-badges",
+      "title": "Implement self-checking quizzes for all nine units with 5-10 questions each, providing instant feedback and auto-grading. Include progress tracking dashboard and completion badges.",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-embed-google-forms-tests-at-the-bottom-of-all-nine-unit-pages-with-25-multiple-choice-questions-each-use-placeholder-urls-https-forms-google-com-unit1-environmental-systems-test-https-forms-google-com-unit2-nature-of-science-test-https-forms-google-com-unit3-energy-flow-test-https-forms-google-com-unit4-carrying-capacity-test-https-forms-google-com-unit5-natural-change-test-https-forms-google-com-unit6-human-impact-test-https-forms-google-com-unit7-human-actions-test-https-forms-google-com-unit8-ethics-economics-test-https-forms-google-com-unit9-legislation-test-forms-must-be-clearly-labeled-at-the-end-of-each-unit",
+      "title": "Embed Google Forms tests at the bottom of all nine unit pages with 25 multiple choice questions each. Use placeholder URLs: https://forms.google.com/unit1-environmental-systems-test, https://forms.google.com/unit2-nature-of-science-test, https://forms.google.com/unit3-energy-flow-test, https://forms.google.com/unit4-carrying-capacity-test, https://forms.google.com/unit5-natural-change-test, https://forms.google.com/unit6-human-impact-test, https://forms.google.com/unit7-human-actions-test, https://forms.google.com/unit8-ethics-economics-test, https://forms.google.com/unit9-legislation-test. Forms must be clearly labeled at the end of each unit.",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-teacher-dashboard-with-capabilities-to-view-student-progress-view-quiz-scores-download-assessment-results-assign-webquests-and-monitor-career-exploration-reflections",
+      "title": "Build Teacher Dashboard with capabilities to view student progress, view quiz scores, download assessment results, assign WebQuests, and monitor career exploration reflections.",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-entire-application-is-mobile-responsive-and-accessibility-compliant-with-proper-semantic-html-aria-labels-keyboard-navigation-and-screen-reader-support",
+      "title": "Ensure entire application is mobile responsive and accessibility compliant with proper semantic HTML, ARIA labels, keyboard navigation, and screen reader support.",
+      "reqIds": [
+        "REQ-23"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-all-external-resource-cards-in-the-stemconnectionssection-component-to-clickable-hyperlinks-that-open-in-new-tabs-each-resource-card-should-link-to-its-corresponding-external-url-museums-universities-organizations-etc",
+      "title": "Convert all external resource cards in the STEMConnectionsSection component to clickable hyperlinks that open in new tabs. Each resource card should link to its corresponding external URL (museums, universities, organizations, etc.).",
+      "reqIds": [
+        "REQ-25"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-all-googleformembed-components-from-unit-1-9-pages-unit1environmentalsystems-tsx-through-unit9legislation-tsx-and-replace-them-with-selfcheckingquiz-components-configured-for-25-questions-each",
+      "title": "Remove all GoogleFormEmbed components from Unit 1-9 pages (Unit1EnvironmentalSystems.tsx through Unit9Legislation.tsx) and replace them with SelfCheckingQuiz components configured for 25 questions each.",
+      "reqIds": [
+        "REQ-26"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-expand-unitquizzes-ts-data-file-to-include-25-multiple-choice-questions-for-all-nine-units-unit1-through-unit9-each-question-must-include-question-text-four-options-correct-answer-index-and-explanation",
+      "title": "Expand unitQuizzes.ts data file to include 25 multiple choice questions for all nine units (unit1 through unit9). Each question must include question text, four options, correct answer index, and explanation.",
+      "reqIds": [
+        "REQ-27"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-bioticabioticsorting-component-heading-in-unit1environmentalsystems-tsx-into-a-clickable-hyperlink-that-scrolls-to-or-highlights-the-interactive-activity-section-when-clicked",
+      "title": "Convert the BioticAbioticSorting component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the interactive activity section when clicked",
+      "reqIds": [
+        "REQ-28"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-foodwebbuilder-component-heading-in-unit1environmentalsystems-tsx-into-a-clickable-hyperlink-that-scrolls-to-or-highlights-the-food-web-builder-section-when-clicked",
+      "title": "Convert the FoodWebBuilder component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the food web builder section when clicked",
+      "reqIds": [
+        "REQ-29"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-virtuallab-component-heading-in-unit1environmentalsystems-tsx-into-a-clickable-hyperlink-that-scrolls-to-or-highlights-the-virtual-lab-section-when-clicked",
+      "title": "Convert the VirtualLab component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the virtual lab section when clicked",
+      "reqIds": [
+        "REQ-30"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-convert-the-biogeochemicalcycles-component-heading-in-unit1environmentalsystems-tsx-into-a-clickable-hyperlink-that-scrolls-to-or-highlights-the-biogeochemical-cycles-section-when-clicked",
+      "title": "Convert the BiogeochemicalCycles component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the biogeochemical cycles section when clicked",
+      "reqIds": [
+        "REQ-31"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-table-of-contents-or-navigation-section-at-the-top-of-unit1environmentalsystems-tsx-that-lists-all-interactive-activities-with-anchor-links-to-each-activity-section",
+      "title": "Add a table of contents or navigation section at the top of Unit1EnvironmentalSystems.tsx that lists all interactive activities with anchor links to each activity section",
+      "reqIds": [
+        "REQ-32"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-the-same-hyperlink-and-navigation-pattern-from-req-28-through-req-32-to-all-placeholder-interactive-activities-in-unit2natureofscience-tsx-through-unit9legislation-tsx-creating-clickable-activity-links-for-scientific-method-builder-hypothesis-testing-model-comparison-energy-pyramid-builder-population-simulators-and-all-other-listed-interactive-components",
+      "title": "Apply the same hyperlink and navigation pattern from REQ-28 through REQ-32 to all placeholder interactive activities in Unit2NatureOfScience.tsx through Unit9Legislation.tsx, creating clickable activity links for scientific method builder, hypothesis testing, model comparison, energy pyramid builder, population simulators, and all other listed interactive components",
+      "reqIds": [
+        "REQ-33"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Homepage dashboard with navigation cards to 9 units",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Unit 1: Environmental Systems with interactive activities, virtual lab, and simulations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Unit 2: Nature of Science with scientific method builder and classification activities",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Unit 3: Energy Flow with animated energy pyramid and heat transfer simulation",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Unit 4: Carrying Capacity with population growth animations and disease models",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Unit 5: Natural Environmental Change with tectonic simulator and climate visualizations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Unit 6: Human Impact with pollution identification game and air quality simulator",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Unit 7: Human Actions with sustainable city builder and carbon footprint calculator",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Unit 8: Ethics & Economics with cost-benefit analysis and debate simulation",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Unit 9: Environmental Legislation with interactive treaty timelines and law creation activity",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Nature-inspired UI with forest green palette, leaf accents, smooth animations and mobile responsiveness",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "STEM Career Exploration section in every unit with resource cards and career pathways",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Assessment system with auto-graded quizzes and embedded Google Forms tests",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Teacher Dashboard for viewing progress, scores, and managing assignments",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-30",
+      "summary": "Add animated concept explainer sections to all nine unit pages. Explainers should use animations to visualize key concepts from each unit.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-38",
+      "summary": "Store student quiz scores, progress tracking data, completion badges, career exploration reflections, and teacher dashboard data in the backend with appropriate data models.",
+      "reqIds": [
+        "REQ-24"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-39",
+      "summary": "Add hyperlinks to all external resource cards in STEM career exploration sections",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-40",
+      "summary": "Replace Google Forms unit assessments with self-checking 25-question tests with instant feedback",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-41",
+      "summary": "Add hyperlinks to all interactive activities in unit pages",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Environmental Systems Learning Platform",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,2 +1,3 @@
-# environmental-systems-learning-platform
-Exported from Caffeine project: Environmental Systems Learning Platform
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

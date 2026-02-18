@@ -1,0 +1,133 @@
+{
+  "kind": "build_request",
+  "title": "Add hyperlinks to interactive activities in unit pages",
+  "projectName": "Environmental Systems Learning",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-28",
+      "text": "Convert the BioticAbioticSorting component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the interactive activity section when clicked",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "create hyperlinks to the interactive activities"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Biotic vs Abiotic sorting activity is accessible via clickable link",
+        "Link uses smooth scroll behavior or section highlighting",
+        "Link maintains nature-inspired design system styling"
+      ]
+    },
+    {
+      "id": "REQ-29",
+      "text": "Convert the FoodWebBuilder component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the food web builder section when clicked",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "create hyperlinks to the interactive activities"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Food web builder activity is accessible via clickable link",
+        "Link uses smooth scroll behavior or section highlighting",
+        "Link maintains nature-inspired design system styling"
+      ]
+    },
+    {
+      "id": "REQ-30",
+      "text": "Convert the VirtualLab component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the virtual lab section when clicked",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "create hyperlinks to the interactive activities"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Virtual lab for dissolved oxygen and nitrates is accessible via clickable link",
+        "Link uses smooth scroll behavior or section highlighting",
+        "Link maintains nature-inspired design system styling"
+      ]
+    },
+    {
+      "id": "REQ-31",
+      "text": "Convert the BiogeochemicalCycles component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the biogeochemical cycles section when clicked",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "create hyperlinks to the interactive activities"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Biogeochemical cycles activity is accessible via clickable link",
+        "Link uses smooth scroll behavior or section highlighting",
+        "Link maintains nature-inspired design system styling"
+      ]
+    },
+    {
+      "id": "REQ-32",
+      "text": "Add a table of contents or navigation section at the top of Unit1EnvironmentalSystems.tsx that lists all interactive activities with anchor links to each activity section",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "create hyperlinks to the interactive activities"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navigation section appears below the unit header",
+        "Each interactive activity has a named anchor link",
+        "Links smoothly scroll to the corresponding activity",
+        "Navigation is styled consistently with the nature-inspired theme"
+      ]
+    },
+    {
+      "id": "REQ-33",
+      "text": "Apply the same hyperlink and navigation pattern from REQ-28 through REQ-32 to all placeholder interactive activities in Unit2NatureOfScience.tsx through Unit9Legislation.tsx, creating clickable activity links for scientific method builder, hypothesis testing, model comparison, energy pyramid builder, population simulators, and all other listed interactive components",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "create hyperlinks to the interactive activities"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All unit pages (Unit 2-9) have navigation sections listing their interactive activities",
+        "All interactive activity headings are clickable and navigate to their sections",
+        "Smooth scroll behavior is consistent across all unit pages",
+        "Navigation styling matches the nature-inspired design system"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify read-only paths: frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, frontend/src/components/ui",
+    "Maintain the existing nature-inspired design system with forest green color palette",
+    "Preserve all existing interactive component functionality"
+  ],
+  "nonGoals": [
+    "Creating new interactive activities beyond what already exists",
+    "Modifying the backend data models or quiz storage",
+    "Changing the visual appearance of existing interactive components",
+    "Adding external navigation or breadcrumbs outside unit pages"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

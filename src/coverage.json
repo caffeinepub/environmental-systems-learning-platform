@@ -1,0 +1,114 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-18T20:06:27.381Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 6,
+    "implemented": 6,
+    "items": [
+      {
+        "id": "REQ-28",
+        "summary": "Convert the BioticAbioticSorting component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the interactive activity section when clicked",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+        ]
+      },
+      {
+        "id": "REQ-29",
+        "summary": "Convert the FoodWebBuilder component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the food web builder section when clicked",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+        ]
+      },
+      {
+        "id": "REQ-30",
+        "summary": "Convert the VirtualLab component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the virtual lab section when clicked",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+        ]
+      },
+      {
+        "id": "REQ-31",
+        "summary": "Convert the BiogeochemicalCycles component heading in Unit1EnvironmentalSystems.tsx into a clickable hyperlink that scrolls to or highlights the biogeochemical cycles section when clicked",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+        ]
+      },
+      {
+        "id": "REQ-32",
+        "summary": "Add a table of contents or navigation section at the top of Unit1EnvironmentalSystems.tsx that lists all interactive activities with anchor links to each activity section",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Unit1EnvironmentalSystems.tsx"
+        ]
+      },
+      {
+        "id": "REQ-33",
+        "summary": "Apply the same hyperlink and navigation pattern from REQ-28 through REQ-32 to all placeholder interactive activities in Unit2NatureOfScience.tsx through Unit9Legislation.tsx, creating clickable activity links for scientific method builder, hypothesis testing, model comparison, energy pyramid builder, population simulators, and all other listed interactive components",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Unit2NatureOfScience.tsx",
+          "frontend/src/pages/Unit3EnergyFlow.tsx",
+          "frontend/src/pages/Unit4CarryingCapacity.tsx",
+          "frontend/src/pages/Unit5NaturalChange.tsx",
+          "frontend/src/pages/Unit6HumanImpact.tsx",
+          "frontend/src/pages/Unit7HumanActions.tsx",
+          "frontend/src/pages/Unit8EthicsEconomics.tsx",
+          "frontend/src/pages/Unit9Legislation.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Unit2NatureOfScience.tsx",
+          "frontend/src/pages/Unit3EnergyFlow.tsx",
+          "frontend/src/pages/Unit4CarryingCapacity.tsx",
+          "frontend/src/pages/Unit5NaturalChange.tsx",
+          "frontend/src/pages/Unit6HumanImpact.tsx",
+          "frontend/src/pages/Unit7HumanActions.tsx",
+          "frontend/src/pages/Unit8EthicsEconomics.tsx",
+          "frontend/src/pages/Unit9Legislation.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/pages/Unit1EnvironmentalSystems.tsx",
+    "frontend/src/pages/Unit2NatureOfScience.tsx",
+    "frontend/src/pages/Unit3EnergyFlow.tsx",
+    "frontend/src/pages/Unit4CarryingCapacity.tsx",
+    "frontend/src/pages/Unit5NaturalChange.tsx",
+    "frontend/src/pages/Unit6HumanImpact.tsx",
+    "frontend/src/pages/Unit7HumanActions.tsx",
+    "frontend/src/pages/Unit8EthicsEconomics.tsx",
+    "frontend/src/pages/Unit9Legislation.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

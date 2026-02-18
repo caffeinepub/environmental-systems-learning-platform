@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        
+        /* Nature-inspired color palette - Light mode */
+        --background: 0.97 0.02 85;
+        --foreground: 0.25 0.04 140;
+        
+        --card: 0.99 0.01 85;
+        --card-foreground: 0.25 0.04 140;
+        
+        --popover: 0.99 0.01 85;
+        --popover-foreground: 0.25 0.04 140;
+        
+        /* Forest green primary */
+        --primary: 0.45 0.12 155;
+        --primary-foreground: 0.98 0.01 85;
+        
+        /* Sage green secondary */
+        --secondary: 0.75 0.08 140;
+        --secondary-foreground: 0.25 0.04 140;
+        
+        /* Moss muted */
+        --muted: 0.85 0.05 130;
+        --muted-foreground: 0.45 0.06 140;
+        
+        /* Olive accent */
+        --accent: 0.65 0.10 120;
+        --accent-foreground: 0.98 0.01 85;
+        
+        --destructive: 0.55 0.20 25;
+        --destructive-foreground: 0.98 0.01 85;
+        
+        --border: 0.88 0.04 130;
+        --input: 0.88 0.04 130;
+        --ring: 0.45 0.12 155;
+        
+        --chart-1: 0.50 0.15 155;
+        --chart-2: 0.60 0.12 180;
+        --chart-3: 0.55 0.10 100;
+        --chart-4: 0.65 0.08 70;
+        --chart-5: 0.45 0.14 140;
+    }
+
+    .dark {
+        --background: 0.20 0.03 140;
+        --foreground: 0.95 0.02 85;
+        
+        --card: 0.25 0.04 140;
+        --card-foreground: 0.95 0.02 85;
+        
+        --popover: 0.22 0.03 140;
+        --popover-foreground: 0.95 0.02 85;
+        
+        /* Lighter forest green for dark mode */
+        --primary: 0.65 0.12 155;
+        --primary-foreground: 0.20 0.03 140;
+        
+        --secondary: 0.35 0.06 140;
+        --secondary-foreground: 0.95 0.02 85;
+        
+        --muted: 0.30 0.04 140;
+        --muted-foreground: 0.70 0.06 130;
+        
+        --accent: 0.50 0.10 120;
+        --accent-foreground: 0.95 0.02 85;
+        
+        --destructive: 0.60 0.18 25;
+        --destructive-foreground: 0.95 0.02 85;
+        
+        --border: 0.35 0.04 140;
+        --input: 0.35 0.04 140;
+        --ring: 0.65 0.12 155;
+        
+        --chart-1: 0.60 0.15 155;
+        --chart-2: 0.70 0.12 180;
+        --chart-3: 0.65 0.10 100;
+        --chart-4: 0.75 0.08 70;
+        --chart-5: 0.55 0.14 140;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@layer utilities {
+    .earth-texture {
+        background-image: 
+            radial-gradient(circle at 20% 50%, oklch(0.85 0.05 130 / 0.3) 0%, transparent 50%),
+            radial-gradient(circle at 80% 20%, oklch(0.75 0.08 140 / 0.2) 0%, transparent 50%);
+    }
+    
+    .leaf-pattern {
+        background-image: url('/assets/generated/leaf-accent.dim_64x64.png');
+        background-size: 32px 32px;
+        background-repeat: repeat;
+        opacity: 0.05;
+    }
+    
+    .nature-gradient {
+        background: linear-gradient(135deg, 
+            oklch(0.65 0.10 120) 0%, 
+            oklch(0.55 0.12 145) 50%, 
+            oklch(0.45 0.12 155) 100%);
+    }
+    
+    .tan-bg {
+        background-color: oklch(0.92 0.03 75);
+    }
+}
+
+/* Smooth animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-20px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes pulse-slow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.6s ease-out;
+}
+
+.animate-slide-in {
+    animation: slideIn 0.5s ease-out;
+}
+
+.animate-pulse-slow {
+    animation: pulse-slow 3s ease-in-out infinite;
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Energy flow animation */
+@keyframes energy-flow {
+    0% { transform: translateX(0) scale(1); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: translateX(100px) scale(0.5); opacity: 0; }
+}
+
+.animate-energy-flow {
+    animation: energy-flow 2s ease-in-out infinite;
+}
+
+/* Cycle animation */
+@keyframes cycle-rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.animate-cycle {
+    animation: cycle-rotate 20s linear infinite;
+}
+
+/* Population growth animation */
+@keyframes population-grow {
+    0% { transform: scaleY(0); }
+    100% { transform: scaleY(1); }
+}
+
+.animate-population-grow {
+    animation: population-grow 2s ease-out;
+    transform-origin: bottom;
+}
